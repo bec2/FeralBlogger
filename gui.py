@@ -1,9 +1,10 @@
+
 import tkinter as tk
 import output
 
 def printSomething():
     y = output.function()
-    label = tk.Label(root, text= str(y))
+    label = tk.Label(root, text= "5 potential hits await you in the terminal...")
     label.pack()
 
 root = tk.Tk()
@@ -15,10 +16,4 @@ button = tk.Button(root, text="Make my next viral text post", command=printSomet
 button.pack()
 button.configure(bg='white')
 
-y():
-    sys.stdout = StdRedirector(text_box)
-
-
 root.mainloop()
-
-
